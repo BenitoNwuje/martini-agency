@@ -50,6 +50,8 @@ module.exports = {
         },
         
         }, 
+          "gatsby-plugin-styled-components",
+
     
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
