@@ -7,7 +7,6 @@ import SEO from "../components/Seo"
 import {Wrapper, Image, BottomEdgeDown, BottomEdgeUp} from "./pageStyles/pageStyles"
 import {COLORS} from "../constants"
 //is een functionele component 
-
 const AboutUs = () => {
     const {wpcontent: {
         page: {

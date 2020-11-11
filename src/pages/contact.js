@@ -8,8 +8,6 @@ import {Wrapper, Image, BottomEdgeDown, BottomEdgeUp} from "./pageStyles/pageSty
 import {COLORS} from "../constants"
 
 import { RiMailSendFill, RiPhoneLine, RiUserLocationLine } from 'react-icons/ri'
-
-
 const Contact = () => {
     const {wpcontent: {
         page : {
