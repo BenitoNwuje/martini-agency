@@ -40,6 +40,7 @@ const AboutUs = () => {
     `)
     // layout zal onze pagina een footer and header geven
     return <Layout> 
+        <SEO title="About Us" />
         <Wrapper descriptionColor={COLORS.PRIMARY}>
             <div className="banner">
                 <Image fluid={aboutUsPageHeaderPicture.imageFile.childImageSharp.fluid} alt={aboutUsPageHeaderPicture.altText} />

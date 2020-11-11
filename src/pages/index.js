@@ -74,7 +74,7 @@ const IndexPage = () => {
       <Image fluid={homePageHeaderPicture.imageFile.childImageSharp.fluid} alt={homePageHeaderPicture.altText}  />
       <div className="inner-div">
   <p className="header-title">{homePageHeaderTitle}</p>
-  <p className="header-description">{homePageDescription}</p>
+  <p className="header-description">{homePageHeaderDescription}</p>
       </div>
       <BottomEdgeDown color={COLORS.BLACK} />
       </div>
