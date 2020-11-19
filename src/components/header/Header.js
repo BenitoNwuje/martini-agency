@@ -3,7 +3,7 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import PropTypes from "prop-types"
 import Menu from './Menu'
 
-import {HeaderWrapper, Image} from './headerStyles/headerStyles'
+import {HeaderWrapper, Image} from '../../headerStyles/headerStyles'
 const Header = ({ siteTitle }) => {
   const {
     logo,

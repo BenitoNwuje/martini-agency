@@ -4,7 +4,7 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
 
-import {Wrapper, Image, BottomEdgeDown, BottomEdgeUp, Artist} from "./pageStyles/pageStyles"
+import {Wrapper, Image, BottomEdgeDown, BottomEdgeUp, Artist} from "../pageStyles/pageStyles"
 import {COLORS} from "../constants"
 //is een functionele component 
 const ArtistsPage = () => {
@@ -44,7 +44,7 @@ const ArtistsPage = () => {
                 sourceUrl 
 			imageFile {
             childImageSharp {
-                fluid(quality: 100) {
+                fluid(quality: 50) {
                                 ...GatsbyImageSharpFluid_withWebp
                                 }
                             } 
